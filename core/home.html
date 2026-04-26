@@ -1,0 +1,9 @@
+<h1>Vehicle Rental System</h1>
+
+<h2>Available Vehicles</h2>
+
+<ul>
+    {% for v in vehicles %}
+        <li>{{ v.name }} - Rs {{ v.price_per_day }}/day</li>
+    {% endfor %}
+</ul>

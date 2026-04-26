@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Vehicle Rental</title>
+</head>
+<body>
+    <h1>Vehicle Rental System</h1>
+
+    <h2>Available Vehicles</h2>
+
+    <ul>
+        {% for v in vehicles %}
+            <li>{{ v.name }} - Rs {{ v.price_per_day }} per day</li>
+        {% endfor %}
+    </ul>
+
+</body>
+</html>
