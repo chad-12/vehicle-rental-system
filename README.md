@@ -1,11 +1,16 @@
-# Vehicle Rental System (Vibe Coding Project)
+Vehicle Rental System (Vibe Coding Project)
 
-A simple Django-based vehicle rental system.
+## Project Description
+A simple Django-based Vehicle Rental System where users can view vehicles and manage them through the admin panel.
+
+---
 
 ## Features
-- View vehicles on homepage
-- Add vehicles via admin panel
-- Basic rental structure
+- View available vehicles on homepage
+- Add / manage vehicles using Django admin
+- Basic rental system structure
+
+---
 
 ## Tech Stack
 - Django
@@ -13,7 +18,9 @@ A simple Django-based vehicle rental system.
 - SQLite
 - HTML
 
-## How to Run
+---
+
+## How to Run Project
 
 ```bash
 pip install django
